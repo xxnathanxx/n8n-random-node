@@ -100,20 +100,3 @@ Exemplo de output:
 ```
 
 ---
-
-## ✅ Critérios atendidos
-
-- Configuração infra do n8n com Docker e Postgres ✔️
-- Custom nodes em `.n8n/custom` ✔️
-- Organização de arquivos ✔️
-- Código limpo em TypeScript ✔️
-- Integração com Random.org ✔️
-- Atenção aos detalhes (ícone, propriedades, etc) ✔️
-- README explicando como rodar ✔️
-- Boas práticas baseadas na doc oficial ✔️
-
----
-
-## Observação
-
-Esse projeto foi feito estilo **junior dev**, então pode ter coisas simples que dava pra melhorar, mas a ideia é mostrar o funcionamento do conector e que ele roda no n8n certinho. 🚀
