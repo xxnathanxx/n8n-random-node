@@ -1,0 +1,14 @@
+
+{
+  "name": "n8n-random-node",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && xcopy nodes\\Random\\icon.svg dist\\nodes\\Random\\ /Y",
+    "start": "n8n"
+  },
+  "dependencies": {
+    "n8n-core": "^1.85.4",
+    "n8n-workflow": "^1.85.4",
+    "typescript": "^5.6.3"
+  }
+}

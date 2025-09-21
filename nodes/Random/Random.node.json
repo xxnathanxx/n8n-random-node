@@ -1,0 +1,45 @@
+{
+  "name": "Random",
+  "version": 1,
+  "description": "Gera um número aleatório (local ou via Random.org)",
+  "defaults": {
+    "name": "Random"
+  },
+  "icon": "file:icon.svg",
+  "inputs": [
+    "main"
+  ],
+  "outputs": [
+    "main"
+  ],
+  "properties": [
+    {
+      "displayName": "Mínimo",
+      "name": "min",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "displayName": "Máximo",
+      "name": "max",
+      "type": "number",
+      "default": 100
+    },
+    {
+      "displayName": "Fonte",
+      "name": "source",
+      "type": "options",
+      "options": [
+        {
+          "name": "Local (Math.random)",
+          "value": "local"
+        },
+        {
+          "name": "Random.org (True RNG)",
+          "value": "randomorg"
+        }
+      ],
+      "default": "local"
+    }
+  ]
+}
